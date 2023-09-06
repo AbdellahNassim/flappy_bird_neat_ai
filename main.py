@@ -255,6 +255,7 @@ def main(genomes, config):
 
 
 def run(config_path):
+    # Creating config
     config = neat.config.Config(
         neat.DefaultGenome,
         neat.DefaultReproduction,
